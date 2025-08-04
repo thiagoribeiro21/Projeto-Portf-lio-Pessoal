@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio pessoal</title>
+    <link rel="stylesheet" href="styles/estilos.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="images/icons/retomar.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header flex-column-m flex-row-xl">
+      <div class="container-width flex-row-lg">
+        <div class="logo flex-row-sm">
+          <div class="logo__nome">TR</div>
+          <button id="abrir-sidebar">
+            <img
+              src="images/icons/icons8-alinhar-à-esquerda-50.png"
+              alt="Icone de sidebar"
+            />
+          </button>
+        </div>
+        <nav class="navbar">
+          <ul class="nav__ul flex-column-sm flex-row-m">
+            <li>
+              <button id="fechar-sidebar">
+                <img
+                  src="images/icons/icons8-excluir-50.png"
+                  alt="Fechar o sidebar"
+                />
+              </button>
+            </li>
+            <li><a href="#introducao">Início</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#trajetoria">Trajetória</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="container opacity-animation" id="introducao">
+        <div class="introducao flex-row-sm opacity-animation">
+          <img
+            src="images/Foto minha/1753134547240.png"
+            alt="Imagem minha cartoonizado"
+          />
+          <div class="introducao__content flex-column-sm">
+            <h1 class="introducao__title">Olá, sou <br />Thiago Ribeiro</h1>
+            <h2>
+              <span class="introducao__span">Desenvolvedor Front-end</span>
+            </h2>
+            <p>
+              Em constante evolução como desenvolvedor Front-end, criando
+              interfaces modernas, responsivas e focadas na experiência do
+              usuário!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="projetos container opacity-animation" id="projetos">
+        <div class="container-width">
+          <h2>Meus projetos</h2>
+          <div class="projetos__container flex-column-sm flex-row-m">
+            <article class="projetos__cards flex-column-m">
+              <a href="https://portfolioTR.netlify.app" target="_blank" class="flex-column-sm" id="portfolio">
+              <img src="images/icons/retomar.png" alt="Foto Do Portfólio">
+              <h3>Portfólio Pessoal </h3>
+              <h4>Projeto Portfólio</h4>
+              <p>O projeto do meu portfólio basicamente consiste em ser uma introdução simples aos meus projetos, sobre mim e formas de me contatar</p>
+              </a>
+            </article>
+            <article class="projetos__cards flex-column-m">
+              <a href="https://crechecasacao.netlify.app" target="_blank" class="flex-column-sm" id="casacao">
+              <img src="images/icons/2528787.png" alt="Foto Casacão">
+              <h3>Creche Casacão</h3>
+              <h4>Landing Page de Creche de Cachorro</h4>
+              <p>Landing page responsiva e interativa para uma creche de cães fictícia, desenvolvida para demonstrar meus conhecimentos em HTML, CSS e JavaScript com foco em uma interface acessível e um design atraente. </p>
+              </a>
+            </article>
+             
+             <article class="projetos__cards flex-column-m">
+              <a href="https://cinevida.netlify.app" target="_blank" class="flex-column-sm" id="cinevida">
+              <img src="images/icons/filme.png" alt="Foto CineVida">
+              <h3>CineVida</h3>
+              <h4>Site de catalogo de filmes</h4>
+              <p>Um catálogo de filmes responsivo e interativo. Com foco em demonstrar meu conhecimento em JavaScript e integração de API, o site se conecta em tempo real à API do TMDb para exibir listas de filmes atualizadas e permitir também realizar buscas por filmes específicos.</p>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="sobre-mim flex-column-sm opacity-animation" id="sobre-mim">
+        <div class="container-width">
+          <div class="sobre-mim__content flex-column-sm">
+            <h2 class="sobre-mim__title">Sobre mim</h2>
+            <div class="sobre-mim__content__p flex-column-sm">
+              <p>
+                Sou apaixonado por Front-end e gosto de aprender e me desafiar
+                com programação. Atualmente tenho mais experiência com HTML, CSS
+                e JavaScript, e estou iniciando meus estudos em TypeScript,
+                React e Node.js, buscando expandir constantemente meu
+                conhecimento.
+              </p>
+              <p>
+                Valorizo o trabalho em equipe, a troca de experiências e a
+                colaboração. Gosto de interagir com pessoas, aprender com os
+                outros e me manter atualizado nas principais tecnologias e
+                tendências da área.
+              </p>
+
+              <p>
+                Busco um ambiente onde eu possa evoluir, aprender, contribuir de
+                forma significativa e crescer junto com o time, tanto
+                profissional quanto pessoalmente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container trajetoria opacity-animation" id="trajetoria">
+        <h2>Sobre minha trajetória</h2>
+        <ul class="trajetoria__list flex-column-sm">
+          <li class="opacity-animation">
+            <p>
+            <span>Conhecimento em JavaScript, HTML e CSS.</span>
+            <div class="trajetoria__imagens flex-row-sm opacity-animation">
+              <img
+                src="images/habilidades-svg/javascript-svgrepo-com.svg"
+                alt="Icone do javascript"
+              />
+              <img
+                src="images/habilidades-svg/html-5-svgrepo-com.svg"
+                alt="Icone do HTML"
+              />
+              <img
+                src="images/habilidades-svg/css-3-svgrepo-com.svg"
+                alt="Icone do CSS"
+              />
+            </div>
+            </p>
+          </li>
+          <li class="opacity-animation">
+            <p>
+              Certificação em
+              <a href="assets/UC-732f8d80-cecf-4a01-a5f1-025bb2d2d140.pdf" target="_blank"
+                >curso de Programação Web Front-end Fundamentos: HTML, CSS,
+                Lógica de programação e Javascript.</a
+              ><br />Onde aprendi do básico ao avançado das tecnologias de
+              Front-End em diversos projetos onde botei em prática meus
+              aprendizados.<span class="trajetoria__curso"
+                >Carga horária do curso: 131 horas</span
+              >
+            </p>
+          </li>
+          <li class="opacity-animation">
+            <p>
+              Cursando o 2º semestre de Analise e Desenvolvimento de Sistemas.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="contatos opacity-animation" id="contatos">
+        <div class="container-width">
+          <h2>Contatos</h2>
+          <div class="contatos__list flex-column-sm">
+            <div class="contatos__list__li flex-column-sm opacity-animation">
+              <a href="mailto:thiago.ribeiro2003@hotmail.com" target="_blank"
+                ><img
+                  class="primeiro-grupo__imagem"
+                  src="images/contatos-svg/email-1573-svgrepo-com.svg"
+                  alt="Icone de email"
+              /></a>
+              <a href="mailto:thiago.ribeiro2003@hotmail.com" target="_blank"
+                ><p>Email</p></a
+              >
+              <a href="mailto:thiago.ribeiro2003@hotmail.com" target="_blank"
+                ><p>thiago.ribeiro2003@hotmail.com</p></a
+              >
+            </div>
+            <div class="flex-column-sm flex-row-m contatos__row">
+              <div class="contatos__list__li flex-column-sm opacity-animation">
+                <a href="https://wa.me/5521989211887" target="_blank"
+                  ><img
+                    class="segundo-grupo_imagem"
+                    src="images/contatos-svg/telephone-signal-svgrepo-com.svg"
+                    alt="Icone de telefone"
+                /></a>
+                <a href="https://wa.me/5521989211887" target="_blank"
+                  ><p>Telefone</p></a
+                >
+                <a href="https://wa.me/5521989211887" target="_blank"
+                  ><p>(21) 98921-1887</p></a
+                >
+              </div>
+              <div class="contatos__list__li flex-column-sm opacity-animation">
+                <a href="https://www.linkedin.com/in/thiagorib21" target="_blank"
+                  ><img
+                    class="segundo-grupo_imagem"
+                    src="images/contatos-svg/linkedin-svgrepo-com.svg"
+                    alt="Icone do Linkedin"
+                /></a>
+                <a href="https://www.linkedin.com/in/thiagorib21" target="_blank"
+                  ><p>Linkedin</p></a
+                >
+                <a href="https://www.linkedin.com/in/thiagorib21" target="_blank"
+                  ><p>@thiagorib21</p></a
+                >
+              </div>
+            </div>
+            <div class="contatos__list__li flex-column-sm opacity-animation">
+              <a href="https://github.com/thiagoribeiro21" target="_blank"
+                ><img
+                  class="primeiro-grupo__imagem"
+                  src="images/contatos-svg/github-svgrepo-com.svg"
+                  alt="Icone do Github"
+              /></a>
+              <a href="https://github.com/thiagoribeiro21" target="_blank"
+                ><p>Github</p></a
+              >
+              <a href="https://github.com/thiagoribeiro21" target="_blank"
+                ><p>@thiagoribeiro21</p></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script/script.js"></script>
+    <script src="script/introducao.js"></script>
+    <script src="script/opacity-animation.js"></script>
+
+    <script>
+      introducaoImagens(".introducao");
+    </script>
+  </body>
+</html>
