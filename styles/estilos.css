@@ -1,3 +1,4 @@
+/* Declaração de variáveis */
 :root {
   --cor-principal: rgb(23, 42, 69);
   --cor-secundaria: rgb(243, 225, 198);
@@ -11,13 +12,13 @@
   --grid-margin-dobro: calc(var(--grid-margin) * 2);
   --grid-gap-metade: calc(var(--grid-gap) / 2);
 }
-
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Estilização em conjunto do JavaScript do opacity da seções */
 .opacity-animation {
   opacity: 0;
   transform: translateY(10%);
@@ -28,7 +29,7 @@
   opacity: 1;
   transform: translateY(0);
 }
-
+/* Estilizações das tags */
 html {
   scroll-behavior: smooth;
 }
@@ -73,6 +74,7 @@ p {
   display: flex;
   flex-direction: column;
 }
+/* Estilizações do header */
 .header {
   position: sticky;
   top: 0;
@@ -114,6 +116,8 @@ button {
   display: none;
 }
 
+/* Estilização da Nav fixa */
+
 .nav__ul.show__nav {
   right: 0;
   transition: right 0.3s ease-in-out;
@@ -152,6 +156,7 @@ button {
 .container {
   margin: var(--grid-margin);
 }
+/* Estlizações das seções principais */
 
 .introducao {
   justify-content: space-evenly;
@@ -278,6 +283,7 @@ h2 {
   font-size: 1.2rem;
 }
 
+/* Animação dos contatos flutuando em grupos */
 @keyframes imagemFlutuando {
   from {
     opacity: 1;
@@ -329,7 +335,9 @@ h2 {
   }
 }
 
+/* Versão Tablet Responsiva. */
 @media screen and (width > 48em) {
+  /* Alterações de tamanhos para tablet, em flex-directions e mudança no layout do header. */
   :root {
     --grid-margin: 2rem;
     --grid-gap: 1.5rem;
@@ -406,6 +414,7 @@ h2 {
     justify-content: space-evenly;
   }
 
+  /* Grid dos cards da seção projetos. */
   .projetos__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -421,8 +430,9 @@ h2 {
     flex-grow: 1;
   }
 }
-
+/* Versão desktop menor responsiva. */
 @media screen and (width > 64em) {
+  /* Alterações de tamanhos para tablet, em flex-directions e mudança no layout do header. */
   :root {
     --grid-margin: 2.5rem;
     --grid-gap: 1.8rem;
@@ -487,6 +497,7 @@ h2 {
     }
   }
 
+  /* Transição no hover mostrando uma prévia dos sites dos projetos. */
   .projetos__cards a {
     position: relative;
     z-index: 1;
@@ -522,7 +533,9 @@ h2 {
   }
 }
 
+/* Versão desktop maior responsiva. */
 @media screen and (width > 90em) {
+  /* Ultimas alterações de tamanhos para tablet e em flex-directions. */
   :root {
     font-size: 1.5rem;
     --h1-size: 3.5em;
@@ -602,6 +615,7 @@ h2 {
     display: contents;
   }
 
+  /* Simulação de um "Parallax" em conjunto do JavaScript */
   .introducao {
     flex-direction: column;
     align-items: center;
