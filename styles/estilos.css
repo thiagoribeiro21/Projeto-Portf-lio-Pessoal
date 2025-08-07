@@ -205,6 +205,7 @@ h2 {
 
 .trajetoria h2 {
   margin-bottom: var(--grid-margin);
+  text-align: center;
 }
 
 .trajetoria__list {
@@ -214,12 +215,16 @@ h2 {
   line-height: 1.5;
   letter-spacing: 1px;
   li {
+    border: 2px solid black;
     background-color: var(--cor-terciaria);
     padding: 2rem;
     border-radius: 1rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 
     a {
-      color: var(--cor-secundaria);
+      color: aqua;
       text-decoration: underline;
     }
   }
@@ -429,6 +434,10 @@ h2 {
   .projetos__cards a {
     flex-grow: 1;
   }
+
+  .introducao img {
+    width: 250px;
+  }
 }
 /* Versão desktop menor responsiva. */
 @media screen and (width > 64em) {
@@ -438,8 +447,8 @@ h2 {
     --grid-gap: 1.8rem;
     --cor-hover: rgb(4, 4, 36);
     font-size: 1.3em;
-    --h1-size: 3em;
-    --h2-size: 2rem;
+    --h1-size: 2.7em;
+    --h2-size: 1.8rem;
     --grid-margin-dobro: calc(var(--grid-margin) * 2);
   }
 
@@ -468,6 +477,10 @@ h2 {
     justify-content: space-around;
     gap: var(--grid-margin);
     width: 100%;
+  }
+
+  .trajetoria p {
+    font-size: 1rem;
   }
 
   .nav__ul,
@@ -537,9 +550,8 @@ h2 {
 @media screen and (width > 90em) {
   /* Ultimas alterações de tamanhos para tablet e em flex-directions. */
   :root {
-    font-size: 1.5rem;
-    --h1-size: 3.5em;
-    --h2-size: 2.3rem;
+    --h1-size: 3em;
+    --h2-size: 2rem;
     --grid-margin: 3rem;
     --grid-gap: 2rem;
   }
@@ -550,6 +562,10 @@ h2 {
   .flex-column-xl {
     display: flex;
     flex-direction: column;
+  }
+
+  #introducao {
+    margin-top: 0;
   }
 
   .header {
