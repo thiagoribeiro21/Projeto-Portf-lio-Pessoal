@@ -92,9 +92,12 @@ p {
   letter-spacing: 0.125rem;
   font-weight: bold;
   font-size: 1.2rem;
-  border: 2px solid var(--cor-secundaria);
-  border-radius: 50%;
-  padding: 0.5em;
+
+  a {
+    border-radius: 50%;
+    padding: 0.5em;
+    border: 2px solid var(--cor-secundaria);
+  }
 }
 
 button {
