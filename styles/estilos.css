@@ -547,6 +547,10 @@ h2 {
   #portfolio::before {
     background-image: url("../images/hover-projetos/Portfólio/Captura\ de\ tela\ 2025-08-04\ 143446.png");
   }
+  #assistente::before {
+    background-image: url("../images/hover-projetos/Assistente-de-Email/Captura\ de\ tela\ 2025-09-01\ 114241.png");
+    background-position: center;
+  }
 
   .projetos__cards a:hover::before {
     opacity: 1;
