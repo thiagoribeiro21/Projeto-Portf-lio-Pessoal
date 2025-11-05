@@ -230,6 +230,7 @@ h2 {
   }
   span {
     display: block;
+    color: gray;
   }
 }
 .trajetoria__imagens {
@@ -338,6 +339,30 @@ h2 {
   p {
     color: rgb(230, 230, 230);
   }
+}
+
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px 0;
+}
+
+.tech-container img {
+  width: 50px;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.tech-container img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+/* Cor personalizada pro ícone do Strapi (pois o SVG vem preto) */
+.strapi-icon {
+  filter: invert(47%) sepia(74%) saturate(518%) hue-rotate(213deg)
+    brightness(91%) contrast(95%);
 }
 
 /* Versão Tablet Responsiva. */
