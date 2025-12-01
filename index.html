@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio pessoal</title>
     <link rel="stylesheet" href="styles/estilos.css" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="icon" href="images/icons/retomar.png" type="image/x-icon" />
+    <link rel="icon" href="images/icons/retomar.webp" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <meta
+      name="description"
+      content="Portfólio de Thiago Ribeiro — Desenvolvedor Full Stack. Projetos, trajetória, certificados e contatos."
+    />
+    <link rel="canonical" href="https://portfoliopessoaltr.netlify.app/" />
+    <meta property="og:title" content="Thiago Ribeiro — Portfólio" />
+    <meta
+      property="og:description"
+      content="Projetos, trajetória, certificados e contatos."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://portfoliopessoaltr.netlify.app/" />
+    <meta property="og:image" content="images/icons/retomar.webp" />
   </head>
   <body>
     <!-- Header e Nav -->
@@ -24,7 +38,7 @@
           </div>
           <button id="abrir-sidebar">
             <img
-              src="images/icons/icons8-alinhar-à-esquerda-50.png"
+              src="images/icons/icons8-alinhar-à-esquerda-50.webp"
               alt="Icone de sidebar"
             />
           </button>
@@ -34,7 +48,7 @@
             <li>
               <button id="fechar-sidebar">
                 <img
-                  src="images/icons/icons8-excluir-50.png"
+                  src="images/icons/icons8-excluir-50.webp"
                   alt="Fechar o sidebar"
                 />
               </button>
@@ -51,309 +65,477 @@
 
     <main>
       <!-- Seções Principais -->
-      <section class="container opacity-animation" id="introducao">
-        <div class="introducao flex-row-sm opacity-animation">
-          <img
-            src="images/foto-minha/1753134547240.png"
-            alt="Imagem minha cartoonizado"
-          />
-          <div class="introducao__content flex-column-sm">
-            <h1 class="introducao__title">Olá, sou <br />Thiago Ribeiro</h1>
-            <h2>
-              <span class="introducao__span">Desenvolvedor FullStack</span>
-            </h2>
-            <p>
-              Em constante evolução como desenvolvedor FullStack, criando
-              interfaces modernas, responsivas e focadas na experiência do
-              usuário!
-            </p>
+      <div class="hero-home bg-section">
+        <section class="container opacity-animation" id="introducao">
+          <div class="introducao flex-row-sm opacity-animation">
+            <img
+              src="images/foto-minha/1753134547240.webp"
+              alt="Imagem minha cartoonizado"
+            />
+            <div class="introducao__content flex-column-sm">
+              <h1 class="introducao__title">Olá, sou <br />Thiago Ribeiro</h1>
+              <h2>
+                <span class="introducao__span">Desenvolvedor FullStack</span>
+              </h2>
+              <p>
+                Em constante evolução como desenvolvedor FullStack, criando
+                interfaces modernas, responsivas e focadas na experiência do
+                usuário!
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
-      <section class="projetos container opacity-animation" id="projetos">
-        <div class="container-width">
-          <h2>Meus projetos</h2>
-          <div class="projetos__container flex-column-sm flex-row-m">
-            <article class="projetos__cards flex-column-m">
-              <a
-                href="https://portfoliopessoaltr.netlify.app"
-                target="_blank"
-                class="flex-column-sm"
-                id="portfolio"
-              >
-                <img src="images/icons/retomar.png" alt="Foto Do Portfólio" />
-                <h3>Portfólio Pessoal</h3>
-                <h4>Projeto Portfólio</h4>
-                <p>
-                  O projeto do meu portfólio basicamente consiste em ser uma
-                  introdução simples aos meus projetos, sobre mim e formas de me
-                  contatar
-                </p>
-              </a>
-            </article>
-            <article class="projetos__cards flex-column-m">
-              <a
-                href="https://crechecasacao.netlify.app"
-                target="_blank"
-                class="flex-column-sm"
-                id="casacao"
-              >
-                <img src="images/icons/2528787.png" alt="Foto Casacão" />
-                <h3>Creche Casacão</h3>
-                <h4>Website de Creche de Cachorro</h4>
-                <p>
-                  Website responsivo e interativo para uma creche de cães
-                  fictícia, desenvolvido para demonstrar meus conhecimentos em
-                  HTML, CSS e JavaScript com foco em uma interface acessível e
-                  um design atraente.
-                </p>
-              </a>
-            </article>
+        </section>
+      </div>
+      <div class="hero-blue bg-section">
+        <section class="projetos container opacity-animation" id="projetos">
+          <div class="container-width">
+            <h2>Meus projetos</h2>
+            <div class="projetos__container flex-column-sm flex-row-m">
+              <article class="projetos__cards flex-column-m">
+                <a
+                  href="https://portfoliopessoaltr.netlify.app"
+                  target="_blank"
+                  class="flex-column-sm"
+                  id="portfolio"
+                >
+                  <img
+                    src="images/icons/retomar.webp"
+                    alt="Foto Do Portfólio"
+                  />
+                  <h3>Portfólio Pessoal</h3>
+                  <h4>Projeto Portfólio</h4>
+                  <p>
+                    O projeto do meu portfólio basicamente consiste em ser uma
+                    introdução simples aos meus projetos, sobre mim e formas de
+                    me contatar
+                  </p>
+                </a>
+              </article>
+              <article class="projetos__cards flex-column-m">
+                <a
+                  href="https://crechecasacao.netlify.app"
+                  target="_blank"
+                  class="flex-column-sm"
+                  id="casacao"
+                >
+                  <img src="images/icons/2528787.webp" alt="Foto Casacão" />
+                  <h3>Creche Casacão</h3>
+                  <h4>Website de Creche de Cachorro</h4>
+                  <p>
+                    Website responsivo e interativo para uma creche de cães
+                    fictícia, desenvolvido para demonstrar meus conhecimentos em
+                    HTML, CSS e JavaScript com foco em uma interface acessível e
+                    um design atraente.
+                  </p>
+                </a>
+              </article>
 
-            <article class="projetos__cards flex-column-m">
-              <a
-                href="https://cinevida.netlify.app"
-                target="_blank"
-                class="flex-column-sm"
-                id="cinevida"
-              >
-                <img src="images/icons/filme.png" alt="Foto CineVida" />
-                <h3>CineVida</h3>
-                <h4>Site de catálogo de filmes</h4>
-                <p>
-                  Um catálogo de filmes responsivo e interativo. Com foco em
-                  demonstrar meu conhecimento em JavaScript e integração de API,
-                  o site se conecta em tempo real à API do TMDb para exibir
-                  listas de filmes atualizadas e permitir também realizar buscas
-                  por filmes específicos.
-                </p>
-              </a>
-            </article>
+              <article class="projetos__cards flex-column-m">
+                <a
+                  href="https://cinevida.netlify.app"
+                  target="_blank"
+                  class="flex-column-sm"
+                  id="cinevida"
+                >
+                  <img src="images/icons/filme.webp" alt="Foto CineVida" />
+                  <h3>CineVida</h3>
+                  <h4>Site de catálogo de filmes</h4>
+                  <p>
+                    Um catálogo de filmes responsivo e interativo. Com foco em
+                    demonstrar meu conhecimento em JavaScript e integração de
+                    API, o site se conecta em tempo real à API do TMDb para
+                    exibir listas de filmes atualizadas e permitir também
+                    realizar buscas por filmes específicos.
+                  </p>
+                </a>
+              </article>
 
-            <article class="projetos__cards flex-column-m">
-              <a
-                href="https://aurora-ecommerce.netlify.app/"
-                target="_blank"
-                class="flex-column-sm"
-                id="aurora"
-              >
+              <article class="projetos__cards flex-column-m">
+                <a
+                  href="https://aurora-ecommerce.netlify.app/"
+                  target="_blank"
+                  class="flex-column-sm"
+                  id="aurora"
+                >
+                  <img
+                    src="images/icons/coffe-svgrepo-com.svg"
+                    alt="Foto Aurora E-commerce"
+                  />
+                  <h3>Aurora E-commerce</h3>
+                  <h4>
+                    Projeto de E-commerce FullStack com React e TypeScript
+                  </h4>
+                  <p>
+                    E-commerce de cafés (React + TypeScript + Vite) com login e
+                    registro com autenticação Firebase, carrinho de compras,
+                    animações e estilização com styled-components.
+                  </p>
+                </a>
+              </article>
+
+              <article class="projetos__cards flex-column-m">
+                <a
+                  href="https://trsites.com.br"
+                  target="_blank"
+                  class="flex-column-sm"
+                  id="trsites"
+                >
+                  <img src="images/icons/logo--tr.webp" alt="Foto TR Sites" />
+                  <h3>TR Sites</h3>
+                  <h4>Desenvolvimento de Sites & Landing Pages</h4>
+                  <p>
+                    Projeto focado em presença digital no WordPress com foco em
+                    alta conversão, SEO avançado, otimização de velocidade e
+                    integração com Analytics para transformar visitantes em
+                    clientes.
+                  </p>
+                </a>
+              </article>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="hero-sobre-mim bg-section">
+        <section
+          class="sobre-mim flex-column-sm opacity-animation"
+          id="sobre-mim"
+        >
+          <div class="container-width">
+            <div class="sobre-mim_image">
+              <div class="image-profile">
                 <img
-                  src="images/icons/coffe-svgrepo-com.svg"
-                  alt="Foto Aurora E-commerce"
+                  src="images/foto-minha/Captura de tela 2025-11-19 082225.webp"
+                  alt="Minha foto de perfil"
                 />
-                <h3>Aurora E-commerce</h3>
-                <h4>Projeto de E-commerce FullStack com React e TypeScript</h4>
+              </div>
+              <div class="icons-img">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                  title="TypeScript"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  title="React"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                  title="Node.js"
+                />
+              </div>
+            </div>
+
+            <div class="sobre-mim__content flex-column-sm">
+              <h2 class="sobre-mim__title">Sobre mim</h2>
+              <div class="sobre-mim__content__p flex-column-sm">
                 <p>
-                  E-commerce de cafés (React + TypeScript + Vite) com login e
-                  registro com autenticação Firebase, carrinho de compras,
-                  animações e estilização com styled-components.
+                  Sou Desenvolvedor Full-Stack com uma base sólida em HTML, CSS
+                  e JavaScript. No front-end, gosto de criar interfaces
+                  funcionais e bem pensadas usando React (Hooks, Redux) e
+                  Next.js. No back-end, desenvolvo APIs e soluções escaláveis
+                  com Node.js, NestJS e Strapi, sempre buscando escrever um
+                  código limpo, organizado e fácil de manter, aplicando
+                  princípios S.O.L.I.D. e testes automatizados com Jest.
                 </p>
-              </a>
-            </article>
-          </div>
-        </div>
-      </section>
+                <p>
+                  Também trabalho com WordPress e Elementor quando o objetivo é
+                  agilidade sem abrir mão de qualidade. Aliando SEO técnico,
+                  otimização de performance e ferramentas como LiteSpeed Cache,
+                  consigo entregar sites rápidos, leves e prontos para performar
+                  bem nos buscadores.
+                </p>
 
-      <section
-        class="sobre-mim flex-column-sm opacity-animation"
-        id="sobre-mim"
-      >
-        <div class="container-width">
-          <div class="sobre-mim__content flex-column-sm">
-            <h2 class="sobre-mim__title">Sobre mim</h2>
-            <div class="sobre-mim__content__p flex-column-sm">
-              <p>
-                Sou desenvolvedor Full Stack com sólida base em HTML5, CSS3,
-                JavaScript e Bootstrap, e em constante evolução no ecossistema
-                React e Next.js. No back-end, trabalho com Node.js e Express,
-                com experiência em bancos de dados relacionais, Query Builder
-                (Knex) e não relacionais como MySQL e MongoDB, além de utilizar
-                TypeScript e Strapi para o desenvolvimento de aplicações
-                modernas e escaláveis.
-              </p>
-              <p>
-                Tenho domínio em versionamento com Git, integração e consumo de
-                APIs REST, e aplico conceitos de Orientação a Objetos, Padrões
-                de Projeto (GoF) e princípios SOLID para escrever códigos
-                limpos, reutilizáveis e de fácil manutenção.
-              </p>
-
-              <p>
-                Sou apaixonado por tecnologia e aprendizado contínuo. Valorizo o
-                trabalho em equipe, a troca de conhecimento e a construção de
-                soluções eficientes que gerem impacto real. Busco um ambiente
-                colaborativo onde possa evoluir tecnicamente, contribuir com o
-                time e crescer como profissional Full Stack.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="container trajetoria opacity-animation" id="trajetoria">
-        <h2>Minha trajetória e Habilidades</h2>
-        <ul class="trajetoria__list flex-column-sm">
-          <li class="opacity-animation">
-            <div class="tech-container">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                title="HTML5"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                title="CSS3"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                title="JavaScript"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-                title="Bootstrap"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                title="React"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-                title="Next.js"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                title="Node.js"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-                title="Express"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-                title="MySQL"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-                title="MongoDB"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-                title="TypeScript"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/strapi.svg"
-                title="Strapi"
-                class="strapi-icon"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                title="Git"
-              />
-            </div>
-          </li>
-
-          <li class="opacity-animation">
-            <p>
-              Iniciei com o curso de
-              <a href="assets/UC-732f8d80-cecf-4a01-a5f1-025bb2d2d140.pdf"
-                >Programação Web Front-end Fundamentos</a
-              >
-              , onde aprimorei minhas bases em HTML, CSS, lógica de programação
-              e JavaScript.
-              <span>(131h de carga horária)</span>
-            </p>
-            <br />
-            <p>
-              Concluí o curso
-              <a href="assets/certificado-typescript.pdf"
-                >JavaScript e TypeScript do básico ao avançado</a
-              >, que me proporcionou uma visão completa do back-end com Node.js,
-              Express, APIs REST, MongoDB e MySQL ao front-end com React, Hooks
-              e Redux. Durante essa jornada, aprofundei meus conhecimentos em
-              arquitetura de software, princípios SOLID, Design Patterns, testes
-              com Jest e deploy em servidores Linux, consolidando minha
-              capacidade de atuar em todas as etapas do desenvolvimento web.
-              <span>(146h de carga horária)</span>
-            </p>
-          </li>
-          <li class="opacity-animation">
-            <p>
-              Cursando o 2º semestre de Analise e Desenvolvimento de Sistemas.
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <section class="contatos opacity-animation" id="contatos">
-        <div class="container-width">
-          <h2>Contatos</h2>
-          <div class="contatos__list flex-column-sm">
-            <div class="contatos__list__li flex-column-sm opacity-animation">
-              <a href="mailto:thiago.ribeiro2003@hotmail.com" target="_blank"
-                ><img
-                  class="primeiro-grupo__imagem"
-                  src="images/contatos-svg/email-1573-svgrepo-com.svg"
-                  alt="Icone de email"
-              /></a>
-              <a href="mailto:thiago.ribeiro2003@hotmail.com" target="_blank"
-                ><p>Email</p></a
-              >
-              <a href="mailto:thiago.ribeiro2003@hotmail.com" target="_blank"
-                ><p>thiago.ribeiro2003@hotmail.com</p></a
-              >
-            </div>
-            <div class="flex-column-sm flex-row-m contatos__row">
-              <div class="contatos__list__li flex-column-sm opacity-animation">
-                <a href="https://wa.me/5521989211887" target="_blank"
-                  ><img
-                    class="segundo-grupo_imagem"
-                    src="images/contatos-svg/telephone-signal-svgrepo-com.svg"
-                    alt="Icone de telefone"
-                /></a>
-                <a href="https://wa.me/5521989211887" target="_blank"
-                  ><p>Telefone</p></a
-                >
-                <a href="https://wa.me/5521989211887" target="_blank"
-                  ><p>(21) 98921-1887</p></a
-                >
-              </div>
-              <div class="contatos__list__li flex-column-sm opacity-animation">
-                <a
-                  href="https://www.linkedin.com/in/thiagorib21"
-                  target="_blank"
-                  ><img
-                    class="segundo-grupo_imagem"
-                    src="images/contatos-svg/linkedin-svgrepo-com.svg"
-                    alt="Icone do Linkedin"
-                /></a>
-                <a
-                  href="https://www.linkedin.com/in/thiagorib21"
-                  target="_blank"
-                  ><p>Linkedin</p></a
-                >
-                <a
-                  href="https://www.linkedin.com/in/thiagorib21"
-                  target="_blank"
-                  ><p>@thiagorib21</p></a
-                >
+                <p>
+                  Sou apaixonado por tecnologia e aprendizado contínuo. Valorizo
+                  o trabalho em equipe, a troca de conhecimento e a construção
+                  de soluções eficientes que gerem impacto real. Busco um
+                  ambiente colaborativo onde possa evoluir tecnicamente,
+                  contribuir com o time e crescer como profissional Full Stack.
+                </p>
               </div>
             </div>
-            <div class="contatos__list__li flex-column-sm opacity-animation">
-              <a href="https://github.com/thiagoribeiro21" target="_blank"
-                ><img
-                  class="primeiro-grupo__imagem"
-                  src="images/contatos-svg/github-svgrepo-com.svg"
-                  alt="Icone do Github"
-              /></a>
-              <a href="https://github.com/thiagoribeiro21" target="_blank"
-                ><p>Github</p></a
-              >
-              <a href="https://github.com/thiagoribeiro21" target="_blank"
-                ><p>@thiagoribeiro21</p></a
-              >
+          </div>
+        </section>
+      </div>
+
+      <div class="bg-section hero-blue">
+        <section class="container trajetoria opacity-animation" id="trajetoria">
+          <h2>Minha trajetória e Habilidades</h2>
+          <ul class="trajetoria__list flex-column-sm">
+            <li class="opacity-animation">
+              <div class="tech-container">
+                <div class="tech-content">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    title="HTML5"
+                  />
+                  <p>HTML5</p>
+                </div>
+                <div class="tech-content">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                    title="CSS3"
+                  />
+                  <p>CSS3</p>
+                </div>
+                <div class="tech-content">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    title="JavaScript"
+                  />
+                  <p>JavaScript</p>
+                </div>
+                <div class="tech-content">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                    title="Bootstrap"
+                  />
+                  <p>Bootstrap</p>
+                </div>
+                <div class="tech-content">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    title="React"
+                  />
+                  <p>React</p>
+                </div>
+                <div class="tech-content">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                    title="Next.js"
+                  />
+                  <p>Next.js</p>
+                </div>
+                <div class="tech-content">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                    title="Node.js"
+                  />
+                  <p>Node.js</p>
+                </div>
+                <div class="tech-content">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                    title="Express"
+                  />
+                  <p>Express</p>
+                </div>
+                <div class="tech-content">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                    title="MySQL"
+                  />
+                  <p>MySQL</p>
+                </div>
+                <div class="tech-content">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                    title="MongoDB"
+                  />
+                  <p>MongoDB</p>
+                </div>
+                <div class="tech-content">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                    title="TypeScript"
+                  />
+                  <p>TypeScript</p>
+                </div>
+                <div class="tech-content">
+                  <img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/strapi.svg"
+                    title="Strapi"
+                    class="strapi-icon"
+                  />
+                  <p>Strapi</p>
+                </div>
+                <div class="tech-content">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                    title="Git"
+                  />
+                  <p>Git</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="opacity-animation">
+              <div class="certificate-container">
+                <div class="card-certificate">
+                  <div class="certificate-image">
+                    <img
+                      src="images/icons/Udemy-Logo-700x394.webp"
+                      alt="Logo da Udemy"
+                    />
+                  </div>
+                  <div class="certificate-content">
+                    <h3>Programação Web Front-end Fundamentos</h3>
+                    <p>
+                      Foco na construção da base sólida do desenvolvimento web,
+                      aprimorando conhecimentos essenciais em
+                      <strong>HTML</strong>, <strong>CSS</strong>, lógica de
+                      programação estruturada e <strong>JavaScript</strong>.
+                    </p>
+                    <div class="certificate-footer">
+                      <span class="hours">Carga horária: 131h</span>
+                      <a
+                        href="assets/UC-732f8d80-cecf-4a01-a5f1-025bb2d2d140.pdf"
+                        target="_blank"
+                        class="cert-link"
+                      >
+                        Ver Certificado
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-certificate">
+                  <div class="certificate-image">
+                    <img
+                      src="images/icons/Udemy-Logo-700x394.webp"
+                      alt="Logo da Udemy"
+                    />
+                  </div>
+                  <div class="certificate-content">
+                    <h3>JavaScript e TypeScript do básico ao avançado</h3>
+                    <p>
+                      Visão completa do Back-end com <strong>Node.js</strong>,
+                      <strong>Express</strong>, <strong>APIs REST</strong>,
+                      <strong>MongoDB</strong> e <strong>MySQL</strong> ao
+                      Front-end com <strong>React</strong>, Hooks e
+                      <strong>Redux</strong>. Aprofundamento em arquitetura,
+                      <strong>SOLID</strong>, Design Patterns, testes com
+                      <strong>Jest</strong> e deploy em <strong>Linux</strong>.
+                    </p>
+                    <div class="certificate-footer">
+                      <span class="hours">Carga horária: 146h</span>
+                      <a
+                        href="assets/certificado-typescript.pdf"
+                        target="_blank"
+                        class="cert-link"
+                      >
+                        Ver Certificado
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-certificate">
+                  <div class="certificate-image">
+                    <img
+                      src="images/icons/Udemy-Logo-700x394.webp"
+                      alt="Logo da Udemy"
+                    />
+                  </div>
+                  <div class="certificate-content">
+                    <h3>Criação de Sites com WordPress e Elementor</h3>
+                    <p class="course-description">
+                      Expansão das habilidades de Front-end para
+                      <strong>Low-code</strong>. Foco na criação de sites
+                      rápidos e flexíveis utilizando a potência do CMS
+                      <strong>WordPress</strong> combinada à agilidade do
+                      <strong>Elementor</strong>, alinhando design visual e
+                      entrega ágil.
+                    </p>
+                    <div class="certificate-footer">
+                      <span class="hours">Carga horária: 20,5h</span>
+                      <a
+                        href="assets/UC-cf99de6a-765b-457c-b844-cfebd8383860.pdf"
+                        target="_blank"
+                        class="cert-link"
+                      >
+                        Ver Certificado
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="opacity-animation">
+              <p>
+                Cursando o 2º semestre de Analise e Desenvolvimento de Sistemas.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="hero-blue bg-section">
+        <section class="contatos opacity-animation" id="contatos">
+          <div class="container-width">
+            <h2>Contatos</h2>
+            <div class="contatos__list flex-column-sm">
+              <div class="contatos__list__li flex-column-sm opacity-animation">
+                <a href="mailto:thiago.ribeiro2003@hotmail.com" target="_blank"
+                  ><img
+                    class="primeiro-grupo__imagem"
+                    src="images/contatos-svg/email-1573-svgrepo-com.svg"
+                    alt="Icone de email"
+                /></a>
+                <a href="mailto:thiago.ribeiro2003@hotmail.com" target="_blank"
+                  ><p>Email</p></a
+                >
+                <a href="mailto:thiago.ribeiro2003@hotmail.com" target="_blank"
+                  ><p>thiago.ribeiro2003@hotmail.com</p></a
+                >
+              </div>
+              <div class="flex-column-sm flex-row-m contatos__row">
+                <div
+                  class="contatos__list__li flex-column-sm opacity-animation"
+                >
+                  <a href="https://wa.me/5521989211887" target="_blank"
+                    ><img
+                      class="segundo-grupo_imagem"
+                      src="images/contatos-svg/telephone-signal-svgrepo-com.svg"
+                      alt="Icone de telefone"
+                  /></a>
+                  <a href="https://wa.me/5521989211887" target="_blank"
+                    ><p>Telefone</p></a
+                  >
+                  <a href="https://wa.me/5521989211887" target="_blank"
+                    ><p>(21) 98921-1887</p></a
+                  >
+                </div>
+                <div
+                  class="contatos__list__li flex-column-sm opacity-animation"
+                >
+                  <a
+                    href="https://www.linkedin.com/in/thiagorib21"
+                    target="_blank"
+                    ><img
+                      class="segundo-grupo_imagem"
+                      src="images/contatos-svg/linkedin-svgrepo-com.svg"
+                      alt="Icone do Linkedin"
+                  /></a>
+                  <a
+                    href="https://www.linkedin.com/in/thiagorib21"
+                    target="_blank"
+                    ><p>Linkedin</p></a
+                  >
+                  <a
+                    href="https://www.linkedin.com/in/thiagorib21"
+                    target="_blank"
+                    ><p>@thiagorib21</p></a
+                  >
+                </div>
+              </div>
+              <div class="contatos__list__li flex-column-sm opacity-animation">
+                <a href="https://github.com/thiagoribeiro21" target="_blank"
+                  ><img
+                    class="primeiro-grupo__imagem"
+                    src="images/contatos-svg/github-svgrepo-com.svg"
+                    alt="Icone do Github"
+                /></a>
+                <a href="https://github.com/thiagoribeiro21" target="_blank"
+                  ><p>Github</p></a
+                >
+                <a href="https://github.com/thiagoribeiro21" target="_blank"
+                  ><p>@thiagoribeiro21</p></a
+                >
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
 
     <script src="script/script.js"></script>
