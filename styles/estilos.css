@@ -123,7 +123,7 @@ button img {
   font-size: 1.2rem;
   gap: var(--grid-margin);
 }
-.nav_ul.show_nav {
+.nav__ul.show__nav {
   right: 0;
   transition: right 0.3s ease-in-out;
   width: 50%;
@@ -179,7 +179,7 @@ h2 {
 .sobre-mim__content {
   gap: var(--grid-gap);
 }
-.sobre-mim_content_p {
+.sobre-mim__content__p {
   gap: var(--grid-gap);
 }
 
@@ -375,25 +375,25 @@ h2 {
 .contatos__list {
   gap: var(--grid-margin-dobro);
 }
-.contatos_list_li {
+.contatos__list__li {
   align-items: center;
   text-align: center;
   gap: var(--grid-gap);
 }
-.contatos_list_li p {
+.contatos__list__li p {
   font-weight: bold;
 }
-.contatos_list_li a img {
+.contatos__list__li a img {
   width: 60px;
   background-color: var(--cor-secundaria);
   padding: 1rem;
   border-radius: 20%;
 }
-.contatos_list_li a:nth-child(3) {
+.contatos__list__li a:nth-child(3) {
   color: gray;
   font-size: 1rem;
 }
-.contatos_list_li a:nth-child(2) {
+.contatos__list__li a:nth-child(2) {
   font-size: 1.2rem;
 }
 
@@ -574,7 +574,7 @@ h2 {
     flex: 1;
   }
 
-  .contatos_list_li a img {
+  .contatos__list__li a img {
     width: 80px;
   }
 
@@ -649,7 +649,7 @@ h2 {
     flex-direction: column;
   }
 
-  .contatos_list_li a img {
+  .contatos__list__li a img {
     width: 100px;
   }
   .trajetoria__imagens img {
@@ -880,7 +880,7 @@ h2 {
     flex-direction: row;
     gap: var(--grid-margin-dobro);
   }
-  .contatos_list .contatoslist_li {
+  .contatos__list .contatos__list__li {
     flex: 1;
   }
   .contatos__row {
@@ -926,7 +926,7 @@ h2 {
     font-size: 1rem;
   }
 
-  .contatos_list_li p {
+  .contatos__list__li p {
     font-size: 0.9rem;
   }
 
